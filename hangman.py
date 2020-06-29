@@ -9,7 +9,7 @@ count = 0
 invalid = "Your guess was invalid."
 
 #designates path to txt file and opens it
-path = '/Users/danem/weekdays.txt'
+path = './myWords.txt'
 file = open(path, "r")
 
 #Fills list with words from txt file
